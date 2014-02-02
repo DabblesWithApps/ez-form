@@ -58,16 +58,15 @@ Responding to Form Submission:
 		});
 		
 Extending the EZFormClass (1 of 2):
-
-/*
  * To create a custom form extend the EZForm class.
  * Create the elements you want to add to your form (fields, buttons, labels).
  * You can use EZFormElement.getView() to get the views and edit them.
  * Use EZForm.getInputs() to retrieve a list of strings from the fields of
  * this form.
- */
+ 
 
-public class FoodFormExample extends EZForm {
+public class FoodFormExample extends EZForm 
+{
 
 	@SuppressLint("NewApi")
 	public FoodFormExample(Context context) {
