@@ -119,13 +119,13 @@ Comming soon.
 ## Other Stuff
 ### Shorthand for making specific elements.
 
-	* EZFormElement label = new EZFormElement(EZFormElement.ELEMENT_TYPE_LABEL, "Food Name:", context);
-	or  
-	* EZFormElement label = new EZFormLabel("Food Name:", context);
-		
-	Same goes for buttons and field:
-	* new EZFormButton("Im a button!", context);
-	* new EZFormBField("Field:", context);
-		
+* EZFormElement label = new EZFormElement(EZFormElement.ELEMENT_TYPE_LABEL, "Food Name:", context);
+or  
+* EZFormElement label = new EZFormLabel("Food Name:", context);
+	
+Same goes for buttons and field:
+* new EZFormButton("Im a button!", context);
+* new EZFormBField("Field:", context);
+	
 		
 		
