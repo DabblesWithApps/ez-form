@@ -120,7 +120,9 @@ Comming soon.
 ### Shorthand for making specific elements.
 
 * EZFormElement label = new EZFormElement(EZFormElement.ELEMENT_TYPE_LABEL, "Food Name:", context);
-or  
+
+becomes
+
 * EZFormElement label = new EZFormLabel("Food Name:", context);
 	
 Same goes for buttons and fields:
