@@ -123,9 +123,9 @@ Comming soon.
 or  
 * EZFormElement label = new EZFormLabel("Food Name:", context);
 	
-Same goes for buttons and field:
+Same goes for buttons and fields:
 * new EZFormButton("Im a button!", context);
-* new EZFormBField("Field:", context);
+* new EZFormField("Field:", context);
 	
 		
 		
