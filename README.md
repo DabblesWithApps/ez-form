@@ -29,7 +29,7 @@ For me, making forms with Android is extremely annoying. This library is to make
 		// Append the form to the of your choice view.
 		layout.addView(ezform.createForm());
 		
-## Responding to Form Submission:
+## Responding to Form Submission
 
 		/*
 		 * 
@@ -58,7 +58,7 @@ For me, making forms with Android is extremely annoying. This library is to make
 			
 		});
 		
-## Extending the EZFormClass (1 of 2):
+## Extending the EZFormClass (1 of 2)
  * To create a custom form extend the EZForm class.
  * Create the elements you want to add to your form (fields, buttons, labels).
  * You can use EZFormElement.getView() to get the views and edit them.
@@ -112,5 +112,6 @@ For me, making forms with Android is extremely annoying. This library is to make
 		}
 
 
-Extending the EZFormClass (2 of 2):
-Comming soon.
+## Extending the EZFormClass (2 of 2)
+
+Comming soon.  
