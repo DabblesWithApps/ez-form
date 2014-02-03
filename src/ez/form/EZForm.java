@@ -12,9 +12,9 @@ import android.widget.LinearLayout;
 // Inherit this class to make an EZ form.
 public class EZForm {
 
-    private List<EZFormElement> mElements;	
-    private LinearLayout mLayout;
-    private Context mContext;
+    protected List<EZFormElement> mElements;	
+    protected LinearLayout mLayout;
+    protected Context mContext;
 	
 	public EZForm(Context context) {
 		mContext = context;
@@ -24,6 +24,10 @@ public class EZForm {
 		mLayout.setOrientation(LinearLayout.VERTICAL);
     	mElements = new ArrayList<EZFormElement>();
     }
+	
+	public Context getContext() {
+		return mContext;
+	}
 	
 	public void addFormElement(EZFormElement element) {
 		mElements.add(element);
