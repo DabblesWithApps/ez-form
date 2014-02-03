@@ -115,3 +115,17 @@ For me, making forms with Android is extremely annoying. This library is to make
 ## Extending the EZFormClass (2 of 2)
 
 Comming soon.  
+
+## Other Stuff
+### Shorthand for making specific elements.
+
+	* EZFormElement label = new EZFormElement(EZFormElement.ELEMENT_TYPE_LABEL, "Food Name:", context);
+	or  
+	* EZFormElement label = new EZFormLabel("Food Name:", context);
+		
+	Same goes for buttons and field:
+	* new EZFormButton("Im a button!", context);
+	* new EZFormBField("Field:", context);
+		
+		
+		
