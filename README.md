@@ -6,7 +6,7 @@ For me, making forms with Android is extremely annoying. This library is to make
 ==========
 V1
 ==========
-Example of Most Simple Use (Inside of OnCreate method of Activity Class):
+#Example of Most Simple Use (Inside of OnCreate method of Activity Class)
 
 		/*
 		 * 
@@ -68,7 +68,7 @@ Extending the EZFormClass (1 of 2):
  * Create the elements you want to add to your form (fields, buttons, labels).
  * You can use EZFormElement.getView() to get the views and edit them.
  * Use EZForm.getInputs() to retrieve a list of strings from the fields of this form.
- 
+
 		public class FoodFormExample extends EZForm {
 		
 			@SuppressLint("NewApi")
