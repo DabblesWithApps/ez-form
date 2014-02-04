@@ -1,14 +1,12 @@
 # ABOUT  
 
-**For many, making forms for Android Apps is extremely annoying. This library is to make it easier.  
-
-The most important classes in this library are the EZFORM and EZFORMElement.
+**The most important classes in this library are the EZFORM and EZFORMElement.
 These two classes combined can be used to quickly create and attach forms
-with labels, fields, and buttons.
+with labels, fields, and buttons.**
 
-Both classes are easily extensible which is a major focus of this library.
+**Both classes are easily extensible which is a major focus of this library.
 Examples of using and extending the classes are provided in git project as
-well as the README.  **
+well as the README.**  
 
 The process for adding an ezform includes:
 
