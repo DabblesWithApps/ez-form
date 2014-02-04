@@ -24,6 +24,7 @@ But if you extend the ezform class the process includes:
 
 # V1
 ## Example of Most Simple Use (Inside of OnCreate method of Activity Class)
+
 		/*
 		 * 
 		 *  Using a standard EZForm object.
@@ -51,6 +52,7 @@ But if you extend the ezform class the process includes:
 		layout.addView(ezform.createForm());
 		
 ## Responding to Form Submission
+
 		/*
 		 * 
 		 *  Responding to form submission
@@ -79,6 +81,7 @@ But if you extend the ezform class the process includes:
 		});
 		
 ## Extending the EZFormClass (1 of 2)
+
  * To create a custom form extend the EZForm class.
  * Create the elements you want to add to your form (fields, buttons, labels).
  * You can use EZFormElement.getView() to get the views and edit them.
@@ -132,6 +135,7 @@ But if you extend the ezform class the process includes:
 		}
 
 ## Extending the EZFormClass (2 of 2) (Inside of OnCreate method of Activity Class)
+
 		ViewGroup layout = (ViewGroup) findViewById(android.R.id.content);
 		FoodFormExample ff = new FoodFormExample(this);
 		layout.addView(ff.createForm());
