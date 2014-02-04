@@ -153,5 +153,15 @@ Same goes for buttons and fields:
 * new EZFormButton("Im a button!", context);
 * new EZFormField("Field:", context);
 	
-		
-		
+# Next Version
+Changes:
+
+1. Make step 1 optional (getting an instance of the viewgroup you want to add it to).
+
+Additions:
+
+1. VALIDATORS!!!!!!!!!!!!!!!!!!!!!!
+
+Bug Fixes:
+
+1. getInput() function of EZForm does not return the proper amount of inputs IF a field is empty (null).
