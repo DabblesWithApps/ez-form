@@ -83,6 +83,7 @@ But if you extend the ezform class the process includes:
  * Create the elements you want to add to your form (fields, buttons, labels).
  * You can use EZFormElement.getView() to get the views and edit them.
  * Use EZForm.getInputs() to retrieve a list of strings from the fields of this form.
+
 		public class FoodFormExample extends EZForm {
 		
 			@SuppressLint("NewApi")
